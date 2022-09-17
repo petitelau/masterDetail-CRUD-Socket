@@ -1,0 +1,47 @@
+[
+  { "id": "1659959232285_3",
+    "name": "Philips Morris", "source": "drools",
+    "address": {
+      "street": "Quai Jeanrenaud 3",
+      "city": "Neuchatel",
+      "ZipCode": "2000"
+    },
+    "since": "01.01.2022",
+    "numOfDeclarations": {
+      "jan": "324",
+      "feb": "461",
+      "mar": "402",
+      "avr": "524",
+      "may": "861",
+      "jun": "202"
+    }
+  },
+  { "id":"1659959232291_6",
+    "name": "Planzer", "source": "drools",
+    "address": {
+      "street": "Salinenstrasse 63",
+      "city": "Pratteln",
+      "ZipCode": "4133"
+    },
+    "since": "02.01.2022",
+    "numOfDeclarations": {
+      "jan": "124",
+      "feb": "261",
+      "mar": "202"
+    }
+  },
+  { "id":"1659959232292_5",
+    "name": "Amazon", "source": "drools",
+    "address": {
+      "street": "RTE DE SORGE 1",
+      "city": "Bussigny-Lausanne",
+      "ZipCode": "1030"
+    },
+    "since": "03.01.2022",
+    "numOfDeclarations": {
+      "jan": "724",
+      "feb": "861",
+      "mar": "802"
+    }
+  }
+]

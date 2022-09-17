@@ -1,0 +1,16 @@
+
+npm i socket
+
+
+npm i bcryptjs@2.4.3
+
+const bcrypt = require('bcryptjs')
+const myFunction = async ()=> {
+   const passw= 'Red1234!'
+   const hashedPass = await bcrypt.hash(passw, 8)  // 8 rounds
+   console.log(passw)
+   console.log(hashedPass)
+
+   const isMatched = await bcrypt.compare('Red1234!', hashedPass)
+}
+myFunction()
